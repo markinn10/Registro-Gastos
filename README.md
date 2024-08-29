@@ -1,4 +1,4 @@
-# Registro Gastos
+# Registro de Gastos
 Este código implementa um sistema de gerenciamento de gastos. Ele permite ao usuário realizar várias operações com os gastos cadastrados, como:
 
 Inserir novo gasto: Adiciona um novo gasto ao sistema, incluindo nome, valor e data.
@@ -16,3 +16,8 @@ Mostrar soma e média dos gastos: Calcula e exibe a soma total e a média dos va
 Salvar em arquivo: Salva todos os gastos cadastrados em um arquivo de texto chamado gastos.txt.
 
 O menu interativo permite ao usuário escolher a operação que deseja realizar, e o loop continua até que o usuário decida sair do programa.
+
+# Observações
+Os dados dos gastos são armazenados temporariamente em uma matriz de estruturas.
+
+O programa suporta no máximo 100 gastos.
